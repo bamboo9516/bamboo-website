@@ -1,8 +1,8 @@
 .container {
     max-width: 860px;
     margin: 0 auto;
-    padding: 0 200px;
-    border: 6px solid #2e7d32;
+    padding: 0 50px;
+    border: 3px solid #8fbc8f;
     border-radius: 8px;
 }
 h1 {
@@ -17,17 +17,18 @@ h1 {
     gap: 30px;
     max-width: 360px;
     margin: 50px auto;
-    border: 1px solid #aaaaaa;
+    border: 2px solid #8fbc8f;
     border-radius: 8px;
     justify-content: center;
+    padding: 10px;
 }
 .nav a {
     text-decoration: none;
     color: #1BA784;
-    font-size: 20px;
+    font-size: 24px;
 }
 .nav a:hover {
-    color: #3d522c;
+    color: #2e7d32;
 }
 h2 {
     font-size: 30px;
@@ -79,5 +80,5 @@ footer a {
     text-decoration: none;
 }
 footer a:hover {
-    color: #3d522c;
+    color: #2e7d32;
 }
