@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f7fbf2;
+    background-color: #daebff;
     margin: 50;
     padding: 0;
 }
@@ -8,35 +8,61 @@ body {
     max-width: 860px;
     margin: 30px auto;
     padding: 0 50px;
-    border: 3px solid #8fbc8f;
+    border: 3px solid #88e4cd;
     border-radius: 8px;
-    background-color: #f0fff0;
+    background-color: rgba(235, 164, 249, 0.6);;
 }
 h1 {
-    font-size: 48px;
-    color: #1BA784;
+    font-family: 'Dancing Script', cursive;
+    font-size: 61px;
+    color: #88e4cd;
     font-weight: bold;
     text-align: center;
     margin: 60px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+.container .introduction {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    color: #806A9B;
+    text-align: center;
+    line-height: 1.8;
 }
 .nav {
     display: flex;
     gap: 30px;
     max-width: fit-content;
     margin: 50px auto;
-    border: 2px solid #8fbc8f;
-    border-radius: 8px;
+    border: 2px solid #88e4cd;
+    border-radius: 15px;
     justify-content: center;
     padding: 10px 20px;
     flex-wrap: wrap;
 }
 .nav a {
+    color: #527D62;
+    border: 2px dashed #9CC9A5;
+    background-color: #F0FAF0;
+    border-radius: 12px;
+    padding: 10px 20px;
     text-decoration: none;
-    color: #1BA784;
-    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    transition: all 0.3s ease;
 }
 .nav a:hover {
-    color: #2e7d32;
+    color: #88e4cd;
+}
+.welcome p {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 400;
+    color: #806A9B;
+    text-align: center;
+    line-height: 1.8;
 }
 h2 {
     font-size: 30px;
@@ -60,20 +86,36 @@ p {
     justify-content: center;
     align-items: flex-start;
     gap: 35px;
-
     max-width: 950px;
     margin: 50px auto;
     padding: 55px 40px;
-
     background: linear-gradient(
         135deg,
-        #F8F0FF,
-        #FFF0F6,
-        #F0F5FF
+        #fcbfff,
+        #ebfeff,
+        #d4e2fe
     );
     border: 2px solid #E8D9F5;
     border-radius: 25px;
     box-shadow: 0 8px 25px rgba(177, 145, 200, 0.15);
+}
+.study-title {
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 30px;
+    color: #8e72ab;
+    letter-spacing: 2px;
+    margin: 0 0 20px;
+}
+.reflection-title {
+    width: 100%;
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #c18cc4;
+    letter-spacing: 2px;
+    margin: 0 0 20px;
 }
 .sticky-note {
     position: relative;
@@ -128,28 +170,28 @@ p {
 .sticky-content{
     padding:10px;
 }
-.sticky-note:nth-child(1) {
-    background-color: #F9E79F;
+.sticky-note:nth-of-type(1) {
+    background-color: #F9E79B;
 }
-.sticky-note:nth-child(2) {
+.sticky-note:nth-of-type(2) {
     background-color: #BFDFF2;
 }
-.sticky-note:nth-child(3) {
+.sticky-note:nth-of-type(3) {
     background-color: #F5C6D6;
 }
-.sticky-note:nth-child(4) {
+.sticky-note:nth-of-type(4) {
     background-color: #CDE8D1;
 }
-.sticky-note:nth-child(5) {
+.sticky-note:nth-of-type(5) {
     background-color: #FFDDE8;
 }
-.sticky-note:nth-child(6) {
+.sticky-note:nth-of-type(6) {
     background-color: #E8DCFF;
 }
-.sticky-note:nth-child(7) {
-    background-color: #D9EDFF;
+.sticky-note:nth-of-type(7) {
+    background-color: #a0caef;
 }
-.sticky-note:nth-child(8) {
+.sticky-note:nth-of-type(8) {
     background-color: #FFF0BD;
 }
 .plog-list {
@@ -206,6 +248,7 @@ footer {
     margin-top: 100px;
     padding: 30px;
     border-top: 1px solid #aaaaaa;
+    text-align: center;
 }
 footer a {
     margin: 0 12px;
